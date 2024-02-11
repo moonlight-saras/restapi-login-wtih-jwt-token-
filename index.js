@@ -46,8 +46,8 @@ app.use(function (req, res, next) {
 });
 
 // start server
-server.listen(5000, () => {
-  console.log("rest service running on port 5000");
+server.listen(5555, () => {
+  console.log("rest service running on port 5555");
 });
 
 // method to ensure the token is being sent and select company according to the token
